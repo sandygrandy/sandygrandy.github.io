@@ -393,7 +393,7 @@ footer img  {
     max-height: 500px;
 }
 
-footer li {
+footer a {
     list-style-type: none;
     text-decoration: none;
     
@@ -402,6 +402,10 @@ footer li {
     font-family: Poppins;
     color:#0A3641;
     font-size: 0.8rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* End of home page */
