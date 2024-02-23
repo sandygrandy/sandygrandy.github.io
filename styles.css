@@ -209,6 +209,39 @@ h3, h5, p {
     font-size: 1.5rem;
 }
 
+/* Product list */
+
+#product-list {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    overflow-x: scroll;
+}
+
+#product-list img {
+    height: 20vh;
+    width: auto;
+
+    margin: 20px;
+    padding-left: 30px;
+}
+
+#product-list img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#product-list p {
+    text-align: center;
+    font-weight: bold;
+
+    margin-top: 0px;
+    
+}
+
+
 /* Explore section */
 
 .explore-text {
@@ -622,11 +655,6 @@ footer a:hover {
     overflow-x: hidden;
     margin: 0;
     display: grid;
-    grid-template: "jacket-list-header" 
-                    "jacket-text" 
-                    "jacket-grid" 
-                    "image-text" 60vh
-                    "footer" 
 }
 
 /* Header */
@@ -728,8 +756,6 @@ footer a:hover {
     background-repeat: no-repeat;
     background-position: center 60%;
 
-    grid-area: "image-text;";
-
     display: flex;
 }
 
@@ -749,6 +775,43 @@ footer a:hover {
     .jacket-list {
         grid-template-columns: 1fr;
     }
+}
+
+#jackets-filter {
+    height: auto;
+    padding: 10px;
+    padding-left: 100px;
+    background-color: #E7F7FB ;
+}
+
+#jackets {
+    height: auto;
+    max-width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+
+    background-color: #E7F7FB;
+}
+
+#jackets div img {
+    height: 250px;
+    margin: 20px;
+
+}
+
+#jackets p {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#jackets img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 /* Footer */
