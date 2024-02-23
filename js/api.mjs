@@ -18,7 +18,8 @@ async function getAllProducts() {
 }
 
 async function getProduct(id) {
-    const response = await fetch(apiUrl);
+    
+    const response = await fetch(apiUrl + '/' + id);
 
     if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
