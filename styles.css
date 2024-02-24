@@ -802,7 +802,6 @@ footer a:hover {
 #jackets div img {
     height: 250px;
     margin: 20px;
-
 }
 
 #jackets p {
@@ -858,7 +857,7 @@ body {
 #image {
     height: 350px;
     width: auto;
-    margin: 80px;
+    margin: 30px;
 }
 
 #title {
@@ -871,4 +870,13 @@ body {
 
 #price {
     font-size: 1.4rem;
+}
+
+#description {
+    padding: 20px;   
+    padding-left: 0px; 
+}
+
+.product-header {
+    background-color:#BECFD4;
 }

@@ -8,8 +8,9 @@ const productListElement = document.querySelector('#jackets')
 function createProduct(product) {
     const div = document.createElement('div')
     div.addEventListener('click', () => {
-        window.location.href = window.location.origin + '/product?id=' + product.id;
+        window.location.href = window.location.origin + '/product.html?id=' + product.id;
     })
+
     const img = document.createElement('img')
 
     img.src = product.image.url
