@@ -7,6 +7,9 @@ const productListElement = document.querySelector('#jackets')
 // Creates elements in HTML, then returns data to parent
 function createProduct(product) {
     const div = document.createElement('div')
+    div.addEventListener('click', () => {
+        window.location.href = window.location.origin + '/product?id=' + product.id;
+    })
     const img = document.createElement('img')
 
     img.src = product.image.url

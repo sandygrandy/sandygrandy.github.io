@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/Favicon/favicon-16x16.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainydays home page</title>
+    
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="/">
+                <img src="../main-logo.png" id="logo" alt="Rainydays logo">
+            </a>
+            <div class="nav">
+                <a href="../jacktets.html">Men</a>
+                <a href="#">Women</a>
+                <a href="../contact.html">Contact us</a>
+                <a href="../about-us.html">About us</a>
+                <a href="#">Cart</a>
+            </div>
+                <input type="checkbox" id="hamburger-input" class="hamburger-show" >
+                <label id="hamburger-menu" for="hamburger-input" >
+                    <nav id="sidebar-menu">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li><a href="../jacktets.html">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="../contact.html">Contact us</a></li>
+                            <li><a href="../about-us.html">About us</a></li>
+                            <li><a href="#">Cart</a></li>
+                        </ul>
+                    </nav>
+                </label>
+                <div class="overlay"></div>
+        </div>
+    </header>
+
+    <section id="product-details">
+        <div>
+            <img src="./Images/rainydays-fleece.png" alt="Product-preview" id="image">
+        </div>
+        <div>
+            <h1 id="title">Product name</h1>
+            <h2 id="tags">Product category, gender</h2>
+            <h3 id="price">Price $</h3>
+            <select id="sizes">
+                <option>Sizes</option>
+                <option>XS</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+            <p id="description">Product description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nemo eius? Esse, aspernatur, incidunt ipsum hic delectus dolore accusantium rem ex quas, voluptatibus autem exercitationem blanditiis. Eligendi doloribus enim nesciunt.</p>
+            <button id="product-button">Add to cart</button>
+        </div>
+
+    </section>
+    <footer class="footer-rainydays">
+        <img src="../main-logo.png" alt="Main Logo for Rainyday">
+
+        <div>
+            <h5>Support</h5>
+                <a href="#">Contact us</a>
+                <br>
+                <a href="#">FAQ</a>
+                <br>
+                <a href="#">Returns</a>
+                <br>
+                <a href="#">Shipping</a>
+                <br>
+                <a href="#">Payment</a>
+        </div>
+
+        <div>
+            <h5>Rainydays</h5>
+                <a href="#">About us</a>
+                <br>
+                <a href="#">Career</a>
+                <br>
+                <a href="#">Locate us</a>
+        </div>
+
+        <div>
+            <h5>Policies</h5>
+                <a href="#">Privacy policy</a>
+                <br>
+                <a href="#">Cookies</a>
+                <br>
+                <a href="#">Integrity policy</a>
+        </div>
+    </footer>
+
+    <script src="../js/product-details.js" type="module"></script>
+</body>
+</html>

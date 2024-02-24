@@ -26,7 +26,7 @@ async function getProduct(id) {
     }
         
     // Parse the JSON response
-    const result = response.json();
+    const result = await response.json();
 
     // Do something with the data from the API
     console.log(result);
