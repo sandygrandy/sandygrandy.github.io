@@ -20,7 +20,11 @@ function createProduct(product) {
     title.innerText = product.title
     
     const price = document.createElement('p')
-    price.innerText = product.price
+    if (product.onSale) {
+        price.innerHTML += `${product.discountedPrice} <i><s>${product.price}</s></i>`
+    } else {
+        price.innerHTML += product.price
+    }
   
     div.appendChild(img)
     div.appendChild(title)

@@ -4,7 +4,7 @@
     <link rel="icon" href="/Favicon/favicon-16x16.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rainydays checkout page</title>
+    <title>Rainydays checkout complete</title>
     
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -26,6 +26,7 @@
                         <h3>Menu</h3>
                         <ul>
                             <li><a href="./jacktets.html">Shop</a></li>
+
                             <li><a href="./contact.html">Contact us</a></li>
                             <li><a href="./about-us.html">About us</a></li>
                             <li><a href="./checkout.html">Cart</a></li>
@@ -35,42 +36,17 @@
                 <div class="overlay"></div>
         </div>
     </header>
-
-    <div id="cart-title">
-        <h1>Your cart</h1>
+    <div id="checkout-complete">
+        <h1>Checkout complete</h1>
+        <h2>Thanks for your order!</h2>
+        <h3>Summary: </h3>
+        <ul id="product-summary-list">
+        </ul>
+        <h4 id="total">Total: </h4>
+        <p>We sent you an order confirmation at loremipsum@email.com. <br>
+            You will recieve an confirmation email with shipment information soon.
+        </p>
     </div>
-    
-    <section id="cart">
-        <div id="cart-products">
-            <!-- <div class="product">
-                <div>
-                    <img src="./Images/rainydays-fleece.png" alt="Product image" class="cart-image">
-                </div>
-                <div>
-                    <h2>Product title</h2>
-                    <p>Product size</p>
-                    <p>Product price</p>
-                    <button>Remove</button>
-                </div>
-            </div> -->
-        </div>
-
-        <div id="empty-cart">
-            <h2>Your cart is empty</h2>
-            <a href="./jacktets.html">Shop here</a>
-        </div>
-
-        <div id="cart-checkout">
-            <h3>Order Summary</h3>
-                <p id="subtotal">Subtotal:</p>
-                <p id="sales">Sales:</p>
-                <p id="shipping">Shipping: Free</p>
-            <h3 id="total">Total: </h3>
-            <form>
-                <button id="checkout-button" formaction="./checkout-complete.html" >Checkout</button>
-            </form>
-        </div>
-    </section>
 
     <footer class="footer-rainydays">
         <img src="/main-logo.png" alt="Main Logo for Rainyday">
@@ -107,6 +83,7 @@
         </div>
     </footer>
 
-    <script src="./js/checkout.js" type="module"></script>
+    <script src="./js/confirmation.js" type="module"></script>
 </body>
 </html>
+
