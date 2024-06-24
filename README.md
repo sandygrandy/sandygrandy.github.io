@@ -1,34 +1,23 @@
-Sandra's semester project 2023
+# Sandra's semester project 2023
 
-Description 
-Created a web page for Rainydays. Rainydays is a jacket store. 
-Did some branding, web design and development. Interactive design, and
-coded functions so send data to/from api to add to cart eg.
+## About 
+Rainydays is an online web shop application built with native HTML, CSS and Javascript.
+Rainydays sells jackets for all purposes.
 
-Built With
+![Skjermbilde 2024-06-21 201259](https://github.com/sandygrandy/sandygrandy.github.io/assets/149969838/bf347a6d-403e-4556-89ea-672441c7f236)
+
+## Built With
 
 Adobe XD 
 HTML and CSS
 Javascript
 
-Getting Started Installing:
+## Features
 
-Clone the repo: git clone git@github.com:NoroffFEU/portfolio-1-example.git
+- Resposive design: The website is fully responsive on larger and smaller screens.
+- Shopping cart function: Users can add and delete items from their shopping cart seamlessly.
+- Fetching API: The website uses an api to fetch information about different items (jackets). 
 
-Install the dependencies: npm install
-
-Running
-
-To run the app, run the following commands:
-
-npm run start 
-
-Contributing 
-
-Here you can detail any information you want to provide regarding contributing to the project. 
-For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. 
-These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
-Contact
+## Contact
 
 My LinkedIn page (https://www.linkedin.com/in/sandra-langeng-77325320b/)
